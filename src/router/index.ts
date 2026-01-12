@@ -62,6 +62,46 @@ const router = createRouter({
       name: 'references',
       component: () => import('../views/ReferencesView.vue'),
     },
+    {
+      path: '/repetend/1',
+      name: 'repetend-1',
+      component: () => import('../views/Repetend1View.vue'),
+    },
+    {
+      path: '/repetend/2',
+      name: 'repetend-2',
+      component: () => import('../views/Repetend2View.vue'),
+    },
+    {
+      path: '/repetend/3',
+      name: 'repetend-3',
+      component: () => import('../views/Repetend3View.vue'),
+    },
+    {
+      path: '/repetend/4',
+      name: 'repetend-4',
+      component: () => import('../views/Repetend4View.vue'),
+    },
+    {
+      path: '/repetend/5',
+      name: 'repetend-5',
+      component: () => import('../views/Repetend5View.vue'),
+    },
+    {
+      path: '/repetend/6',
+      name: 'repetend-6',
+      component: () => import('../views/Repetend6View.vue'),
+    },
+    {
+      path: '/repetend/7',
+      name: 'repetend-7',
+      component: () => import('../views/Repetend7View.vue'),
+    },
+    {
+      path: '/repetend/8',
+      name: 'repetend-8',
+      component: () => import('../views/Repetend8View.vue'),
+    },
   ],
 })
 
