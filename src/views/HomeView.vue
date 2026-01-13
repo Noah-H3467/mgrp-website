@@ -22,6 +22,9 @@
 
     <section class="begin-tour">
       <div class="view">
+        <p>Pocket-sized Raspberry Pi computers were launched in 2012 to make low-cost computing accessible and attractive in order to open the world of programming to people from all background,
+          and have since had a far reaching impact, from UK schools utilizing it as an educational tool and computer resource in the classroom and clubs, to industry purchasing millions of compute modules, and the maker community embracing the hobbyist computers.
+          This ultimately contributed to an increased interest in computer science, founder Eben Upton's overarching goal.</p>
         <RouterLink to="/proposal" class="view-link">Begin Tour</RouterLink>
       </div>
     </section>
