@@ -7,7 +7,7 @@ const BASE = import.meta.env.BASE_URL
 const haxophoneData = {
   name: 'Haxophone',
   description: [
-    'Small travel digital saxophone under $100 that provides a satisfactory user experience. Features the same fingering as a real saxophone.',
+    'Small travel digital saxophone under $300 that provides a satisfactory user experience. Features the same fingering as a real saxophone.',
     'The hardware is a HAT (Hardware attached on top) product for a Raspberry Pi single board computer. The software is free to use.',
     'The haxophone isn\'t intended to replace the saxophone — it\'s simply for scenarios where it is inconvenient to bring or set up a real saxophone.',
   ],
@@ -22,10 +22,10 @@ const haxophoneData = {
 <template>
   <main class="repetend-view">
     <PageHero
-      :title="haxophoneData.name"
+      :title="'Repetend 1'"
       :lead="'A travel digital saxophone for Raspberry Pi'"
-      :image-src="BASE + 'images/raspberry-pis.webp'"
-      image-alt="Haxophone with Raspberry Pi"
+      :image-src="BASE + '/images/haxophone-pcb.jpg'"
+      image-alt="Haxophone Printed Circuit Board front and back view"
     />
     <RepetendCard v-bind="haxophoneData" />
   </main>

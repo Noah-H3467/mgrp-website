@@ -10,8 +10,8 @@ const BASE = import.meta.env.BASE_URL
     <PageHero
       :title="'Infographic'"
       :lead="''"
-      :image-src="BASE + 'images/raspberry-pis.webp'"
-      image-alt="Raspberry Pi"
+      :image-src="BASE + '/images/upton-and-pi.webp'"
+      image-alt="Upton and Pi"
     />
 
     <section class="news">
@@ -20,9 +20,12 @@ const BASE = import.meta.env.BASE_URL
         <NewsItem
           title="What is Raspberry Pi? It's a line of computers - and an organization."
           date="Written: November 2025"
-          :image-src="'public/images/infographic.jpg'"
+          :image-src="BASE + '/images/infographic.jpg'"
         >
         </NewsItem>
+        <h3>Early prototypes</h3>
+        <img :src= "BASE + '/images/raspberry-pi-prototype-1.png'">
+        <img :src= "BASE + '/images/raspberry-pi-prototype-2.png'">
       </div>
     </section>
   </main>

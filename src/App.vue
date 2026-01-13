@@ -1,7 +1,6 @@
-// ...existing code...
 <script setup lang="ts">
-import { ref } from 'vue' // Line 23: ref creates a reactive reference for primitive / object state
-import { RouterLink, RouterView } from 'vue-router' // Line 24: RouterLink/RouterView provide route navigation & outlet
+import { ref } from 'vue' // Line 26: ref creates a reactive reference for primitive / object state
+import { RouterLink, RouterView } from 'vue-router' // RouterLink/RouterView provide route navigation & outlet
 
 // Section type describes each "repetend" row and optional child link
 type Section = {

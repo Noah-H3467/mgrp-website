@@ -10,7 +10,7 @@ const BASE = import.meta.env.BASE_URL
     <PageHero
       :title="'References'"
       :lead="''"
-      :image-src="BASE + 'images/raspberry-pis.webp'"
+      :image-src="BASE + '/images/raspberry-pis.webp'"
       image-alt="Raspberry Pi"
     />
 
@@ -19,11 +19,9 @@ const BASE = import.meta.env.BASE_URL
       <div class="news-items">
         <NewsItem
           title="APA References Page"
-          date="Written: 23 December 2025"
-          :embed-src="'https://docs.google.com/document/d/1LoYsTzEkFZ9-lFhUFp8pghRQGFXHimfCNfa1SuQDtsc/edit?tab=t.c3auktib20bd'"
+          date="Written: 23 December 2025, Updated: 13 January 2026"
+          :embed-src="'https://docs.google.com/document/d/1ARJvoSIVEj2wKIOAzM2SJea24Tfcd7Vb1yfht2XoyvQ/edit?tab=t.hajbhujyrdln'"
         >
-          <!-- additional body content can go here -->
-
         </NewsItem>
       </div>
     </section>

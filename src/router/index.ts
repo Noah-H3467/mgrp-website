@@ -20,7 +20,7 @@ const router = createRouter({
     {
       path: '/proposal',
       name: 'proposal',
-      component: () => import('../views/ProposalView.vue'),
+      component: () => import('../views/DearReaderView.vue'),
     },
     {
       path: '/infographic',

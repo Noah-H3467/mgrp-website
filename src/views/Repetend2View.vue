@@ -20,10 +20,10 @@ const piholeData = {
 <template>
   <main class="repetend-view">
     <PageHero
-      :title="piholeData.name"
+      :title="'Repetend 2'"
       :lead="'Network-wide ad blocker for Raspberry Pi'"
-      :image-src="BASE + 'images/raspberry-pis.webp'"
-      image-alt="Pi-hole network diagram"
+      :image-src="BASE + '/images/pi-hole-blocklist-example.png'"
+      image-alt="Pi-hole application website blocklist demo"
     />
     <RepetendCard v-bind="piholeData" />
   </main>

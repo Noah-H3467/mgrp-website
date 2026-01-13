@@ -8,9 +8,9 @@ const BASE = import.meta.env.BASE_URL
 <template>
   <main class="about">
     <PageHero
-      :title="'Repetend? Expository Essay'"
+      :title="'Expository Essay'"
       :lead="''"
-      :image-src="BASE + 'images/raspberry-pis.webp'"
+      :image-src="BASE + '/images/raspberry-pie.jpg'"
       image-alt="Raspberry Pi"
     />
 
@@ -20,10 +20,9 @@ const BASE = import.meta.env.BASE_URL
         <NewsItem
           title="Introducing Raspberry Pi (not the dessert)"
           date="Written: 25 November 2025"
-          :embed-src="'https://docs.google.com/document/d/1LoYsTzEkFZ9-lFhUFp8pghRQGFXHimfCNfa1SuQDtsc/edit?tab=t.ukqo33urx1gl'"
+          :embed-src="'https://docs.google.com/document/d/1bAxy70DAjxiCzWZLW5Y1Zzz7YfVaSP2Fy3rxNgPKyAg/edit?tab=t.0'"
         >
           <!-- additional body content can go here -->
-          <img :src="BASE + 'images/ADC_2.jpg'" alt="" class="news-image" />
         </NewsItem>
       </div>
     </section>

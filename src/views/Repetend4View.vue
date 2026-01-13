@@ -12,7 +12,7 @@ const xrpData = {
     'Developed through collaboration between Worcester Polytechnic Institute (WPI) and DEKA Research & Development Corp., XRP aims to level the STEM playing field globally and create a future generation of STEM innovators and technology leaders.',
   ],
   links: [
-    { text: 'Experiential Robotics Organization', url: 'https://experientialrobotics.org/' },
+    { text: 'XRP Website', url: 'https://experientialrobotics.org/' },
   ],
 }
 </script>
@@ -20,9 +20,9 @@ const xrpData = {
 <template>
   <main class="repetend-view">
     <PageHero
-      :title="xrpData.name"
+      :title="'Repetend 4'"
       :lead="'Compact robotics platform for STEM education'"
-      :image-src="BASE + 'images/raspberry-pis.webp'"
+      :image-src="BASE + '/images/xrp.png'"
       image-alt="XRP robot"
     />
     <RepetendCard v-bind="xrpData" />

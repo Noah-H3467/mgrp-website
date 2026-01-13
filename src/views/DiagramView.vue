@@ -9,9 +9,9 @@ const BASE = import.meta.env.BASE_URL
   <main class="analysis">
     <PageHero
       :title="'Diagram'"
-      :lead="''"
-      :image-src="BASE + 'images/development-board-comparison.png'"
-      image-alt="Raspberry Pi boards and competition"
+      :lead="'To the left: Raspberry Pis over the years'"
+      :image-src="BASE + '/images/products.png'"
+      image-alt="Raspberry Pi boards"
     />
 
     <section class="news">
@@ -19,7 +19,7 @@ const BASE = import.meta.env.BASE_URL
       <div class="news-items">
         <NewsItem
           title="What is Raspberry Pi? It's a line of computers - and an organization."
-          date="Written: 2 December 2025"
+          date="Diagram created: 2 December 2025"
           :image-src="BASE + '/images/development-board-comparison.png'"
         >
         </NewsItem>

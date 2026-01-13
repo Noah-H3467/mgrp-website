@@ -20,9 +20,9 @@ const phenotikiData = {
 <template>
   <main class="repetend-view">
     <PageHero
-      :title="phenotikiData.name"
+      :title="'Repetend 3'"
       :lead="'Image-based plant phenotyping platform'"
-      :image-src="BASE + 'images/raspberry-pis.webp'"
+      :image-src="BASE + '/images/phenotiki.png'"
       image-alt="Phenotiki platform"
     />
     <RepetendCard v-bind="phenotikiData" />

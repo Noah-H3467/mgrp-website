@@ -9,18 +9,18 @@ const BASE = import.meta.env.BASE_URL
   <main class="analysis">
     <PageHero
       :title="'Literary Criticism'"
-      :lead="''"
-      :image-src="BASE + 'images/raspberry-pis.webp'"
-      image-alt="Raspberry Pi"
+      :lead="'on a related story'"
+      :image-src="BASE + '/images/joe.png'"
+      image-alt="A Logic Named Joe book cover"
     />
 
     <section class="news">
       <h2></h2>
       <div class="news-items">
         <NewsItem
-          title="Literary Criticism on a Related Topic Short Story"
-          date="Written: 19 December 2025"
-          :embed-src="'https://docs.google.com/document/d/1LoYsTzEkFZ9-lFhUFp8pghRQGFXHimfCNfa1SuQDtsc/edit?tab=t.22gjyqguwlzm'"
+          title="Literary Criticism on 'A Logic Named Joe'"
+          date="Originally written: 19 December 2025"
+          :embed-src="'https://docs.google.com/document/d/1DoLAX6jWFKhknb3Hsc6b3lcLYkZLesFrsjGprg1fWj8/edit?tab=t.f45u5kf61jp'"
         >
           <!-- additional body content can go here -->
         </NewsItem>

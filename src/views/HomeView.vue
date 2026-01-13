@@ -15,15 +15,14 @@
           <h4>by Noah Haskell</h4>
         </div>
         <div class="intro-image">
-          <img :src="BASE + 'images/raspberry-pis.webp'" alt="Raspberry Pi" />
+          <img :src="BASE + '/images/raspberry-pis.webp'" alt="Raspberry Pi" />
         </div>
       </div>
     </section>
 
     <section class="begin-tour">
-      <h2>Begin Tour</h2>
       <div class="view">
-        <RouterLink to="/proposal" class="view-link">Proposal</RouterLink>
+        <RouterLink to="/proposal" class="view-link">Begin Tour</RouterLink>
       </div>
     </section>
   </main>
