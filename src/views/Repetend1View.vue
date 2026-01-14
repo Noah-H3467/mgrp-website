@@ -4,17 +4,17 @@ import PageHero from '../components/PageHero.vue'
 
 const BASE = import.meta.env.BASE_URL
 
-const haxophoneData = {
-  name: 'Haxophone',
+const astroPiData = {
+  name: 'Astro Pi',
   description: [
-    'Small travel digital saxophone under $300 that provides a satisfactory user experience. Features the same fingering as a real saxophone.',
-    'The hardware is a HAT (Hardware attached on top) product for a Raspberry Pi single board computer. The software is free to use.',
-    'The haxophone isn\'t intended to replace the saxophone — it\'s simply for scenarios where it is inconvenient to bring or set up a real saxophone.',
+    'TODO: Describe what the Astro Pi hardware is',
+    'Then the scope of the project',
+    'Young people get to send python code to one of two Astro Pis in the ISS.',
+    'It is one of the cool, educational STEM programs that the Raspberry Pi Foundation supports. Check out the infographic for more',
   ],
   links: [
-    { text: 'Hardware Repository', url: 'https://github.com/cardonabits/haxo-hw' },
-    { text: 'Software Repository', url: 'https://github.com/cardonabits/haxo-rs' },
-    { text: 'Crowd Supply Page', url: 'https://www.crowdsupply.com/cardona-bits/haxophone' },
+    { text: 'The European Space Agency: What is an Astro Pi?', url: 'https://www.esa.int/Education/AstroPI/What_is_an_Astro_Pi' },
+    { text: 'Raspberry Pi Blog: Astro Pi - 10 years', url: 'https://www.raspberrypi.org/blog/astro-pi-is-10-a-decade-of-your-code-in-space/' },
   ],
 }
 </script>
@@ -23,11 +23,11 @@ const haxophoneData = {
   <main class="repetend-view">
     <PageHero
       :title="'Repetend 1'"
-      :lead="'A travel digital saxophone for Raspberry Pi'"
-      :image-src="BASE + '/images/haxophone-pcb.jpg'"
-      image-alt="Haxophone Printed Circuit Board front and back view"
+      :lead="'Astro Pi — student code in space'"
+      :image-src="BASE + '/images/astro-pi.webp'"
+      image-alt="Astro Pi hardware"
     />
-    <RepetendCard v-bind="haxophoneData" />
+    <RepetendCard v-bind="astroPiData" />
   </main>
 </template>
 

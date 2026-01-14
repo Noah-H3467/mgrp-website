@@ -4,15 +4,15 @@ import PageHero from '../components/PageHero.vue'
 
 const BASE = import.meta.env.BASE_URL
 
-const xrpData = {
-  name: 'XRP - Experiential Robotics Platform',
+const phenotikiData = {
+  name: 'Phenotiki',
   description: [
-    'The XRP is a compact, cost-effective robotic platform designed to provide students, educators, and teams with an authentic and rigorous introduction to robotics programming.',
-    'Built around the Raspberry Pi Pico W microcontroller, XRP delivers an experiential learning experience that is both comprehensive and accessible.',
-    'Developed through collaboration between Worcester Polytechnic Institute (WPI) and DEKA Research & Development Corp., XRP aims to level the STEM playing field globally and create a future generation of STEM innovators and technology leaders.',
+    'An open software and hardware platform for affordable and easy image-based phenotyping of rosette-shaped plants, published in 2017.',
+    'Phenotiki was designed to be easy to install and deploy, making advanced plant research accessible to more institutions and researchers.',
+    'This project emerged from research papers and represents a significant contribution to plant biology research methodologies.',
   ],
   links: [
-    { text: 'XRP Website', url: 'https://experientialrobotics.org/' },
+    { text: 'Research Paper', url: 'https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.13472' },
   ],
 }
 </script>
@@ -21,11 +21,11 @@ const xrpData = {
   <main class="repetend-view">
     <PageHero
       :title="'Repetend 4'"
-      :lead="'Compact robotics platform for STEM education'"
-      :image-src="BASE + '/images/xrp.png'"
-      image-alt="XRP robot"
+      :lead="'Image-based plant phenotyping platform'"
+      :image-src="BASE + '/images/phenotiki.png'"
+      image-alt="Phenotiki platform"
     />
-    <RepetendCard v-bind="xrpData" />
+    <RepetendCard v-bind="phenotikiData" />
   </main>
 </template>
 
