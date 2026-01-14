@@ -5,17 +5,14 @@ import PageHero from '../components/PageHero.vue'
 const BASE = import.meta.env.BASE_URL
 
 const astroPiData = {
-  name: 'Astro Pi',
-  description: [
-    'TODO: Describe what the Astro Pi hardware is',
-    'Then the scope of the project',
-    'Young people get to send python code to one of two Astro Pis in the ISS.',
-    'It is one of the cool, educational STEM programs that the Raspberry Pi Foundation supports. Check out the infographic for more',
-  ],
+  name: 'Astro Pi, a collaboration between the ESA and the Raspberry Pi Foundation',
+  description: '',
   links: [
     { text: 'The European Space Agency: What is an Astro Pi?', url: 'https://www.esa.int/Education/AstroPI/What_is_an_Astro_Pi' },
     { text: 'Raspberry Pi Blog: Astro Pi - 10 years', url: 'https://www.raspberrypi.org/blog/astro-pi-is-10-a-decade-of-your-code-in-space/' },
   ],
+  imageSrc: BASE + '/images/what-astro-pi-is.jpg',
+  imageAlt: 'A small computer, enclosed in a flight case, with many different sensors that can be used to collect data. Each Astro Pi has a camera module (visible or infared).',
 }
 </script>
 
