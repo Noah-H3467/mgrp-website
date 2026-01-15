@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import PageHero from "../components/PageHero.vue"
 import NewsItem from "../components/NewsItem.vue"
 
-const BASE = import.meta.env.BASE_URL
 </script>
 
 <template>

@@ -10,18 +10,16 @@ const BASE = import.meta.env.BASE_URL
     <PageHero
       :title="'Guide'"
       :lead="''"
-      :image-src="BASE + 'images/raspberry-pis.webp'"
+      :image-src="BASE + '/images/raspberry-pi-2.jpg'"
       image-alt="Raspberry Pi"
     />
-    <!--TODO: change cover image-->
 
     <section class="news">
-      <h2></h2>
       <div class="news-items">
         <NewsItem
-          title="Getting started: Brief guide for setup and a couple of basic uses"
-          date="Created: January 2026"
-          :embed-src="''"
+          title="by Noah Haskell"
+          date="Written: 15 January 2026"
+          :embed-src="'https://docs.google.com/document/d/1ocX_Coeo1Hlmrz0hN6Zm-YbA6D-zScTmhn63iTVs4j0/edit?tab=t.0'"
         >
         </NewsItem>
       </div>
