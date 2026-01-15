@@ -18,12 +18,12 @@ const sections: Section[] = [
   { id: 5, title: 'Repetend 5', child: { label: 'Short Story Lit Crit', to: '/lit-crit' } },
   { id: 6, title: 'Repetend 6', child: { label: 'Poem', to: '/poem' } },
   { id: 7, title: 'Repetend 7', child: { label: 'Lesson', to: '/tutorial' } },
-  { id: 8, title: 'Repetend 8', child: { label: 'Glossary', to: '/glossary' } }
+  { id: 8, title: 'Repetend 8', child: { label: 'Glossary', to: '/glossary' } },
 ]
 
 // open tracks which repetend rows are expanded (true) or collapsed (false)
 const open = ref<Record<number, boolean>>({})
-sections.forEach(s => (open.value[s.id] = false))
+sections.forEach((s) => (open.value[s.id] = false))
 
 /**
  * Toggle expansion for a repetend row.
@@ -48,7 +48,7 @@ function toggle(id: number) {
                 <div class="repetend-row">
                   <button
                     class="toggle-btn"
-                    :aria-expanded="String(!!open[s.id])"
+                    :aria-expanded="!!open[s.id]"
                     :aria-controls="`sub-${s.id}`"
                     @click="toggle(s.id)"
                     :title="open[s.id] ? 'Collapse' : 'Expand'"
@@ -56,7 +56,9 @@ function toggle(id: number) {
                     <span class="chev" :class="{ open: open[s.id] }" aria-hidden="true">▾</span>
                   </button>
 
-                  <RouterLink :to="`/repetend/${s.id}`" class="repetend-link">{{ s.title }}</RouterLink>
+                  <RouterLink :to="`/repetend/${s.id}`" class="repetend-link">{{
+                    s.title
+                  }}</RouterLink>
                 </div>
 
                 <div
