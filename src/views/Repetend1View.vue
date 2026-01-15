@@ -20,7 +20,7 @@ const astroPiData = {
   <main class="repetend-view">
     <PageHero
       :title="'Repetend 1'"
-      :lead="'Astro Pi — student code in space'"
+      :lead="'A program that gives young people a chance to run their code in space!'"
       :image-src="BASE + '/images/astro-pi.webp'"
       image-alt="Astro Pi hardware"
     />
