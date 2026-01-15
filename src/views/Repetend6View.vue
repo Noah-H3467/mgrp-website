@@ -24,7 +24,7 @@ const haxophoneData = {
   <main class="repetend-view">
     <PageHero
       :title="'Repetend 6'"
-      :lead="'A travel digital saxophone for Raspberry Pi'"
+      :lead="'A travel digital saxophone attachment on Raspberry Pi'"
       :image-src="BASE + '/images/haxophone-pcb.jpg'"
       image-alt="Haxophone Printed Circuit Board front and back view"
     />

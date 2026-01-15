@@ -18,13 +18,11 @@ const BASE = import.meta.env.BASE_URL
       <h2></h2>
       <div class="news-items">
         <NewsItem
-          title="Literary Criticism on 'A Logic Named Joe'"
-          date="Originally written: 19 December 2025"
+          title="Literary Criticism of 'A Logic Named Joe'"
+          date="Updated 14 January 2026"
           :embed-src="'https://docs.google.com/document/d/1DoLAX6jWFKhknb3Hsc6b3lcLYkZLesFrsjGprg1fWj8/edit?tab=t.f45u5kf61jp'"
         >
-          <!-- additional body content can go here -->
         </NewsItem>
-        <h5>TODO: Will include a polished connection between the two topics here.</h5>
       </div>
     </section>
   </main>

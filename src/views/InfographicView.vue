@@ -20,7 +20,7 @@ const BASE = import.meta.env.BASE_URL
         <NewsItem
           title="What is Raspberry Pi? It's a line of computers - and an organization."
           date="Written: November 2025"
-          :image-src="BASE + '/images/infographic.jpg'"
+          :image-src="BASE + '/images/infographic.png'"
         >
         </NewsItem>
         <h3>Early prototypes</h3>

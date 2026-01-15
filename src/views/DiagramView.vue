@@ -18,7 +18,7 @@ const BASE = import.meta.env.BASE_URL
       <h2></h2>
       <div class="news-items">
         <NewsItem
-          title="What is Raspberry Pi? It's a line of computers - and an organization."
+          title="Development Boards (pre-built circuit boards with a controller with the necessary hardware to provide a platform for prototyping, testing, and developing projects.)"
           date="Diagram created: 2 December 2025"
           :image-src="BASE + '/images/development-board-comparison.png'"
         >

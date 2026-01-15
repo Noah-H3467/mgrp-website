@@ -8,7 +8,7 @@ const BASE = import.meta.env.BASE_URL
   <main class="glossary">
     <PageHero
       :title="'Glossary'"
-      :lead="'Dear Reader, while making the project, I thought it to be convenient to have a place to store technical definitions to serve as reference. I hope this is helpful and get you curious!'"
+      :lead="'Dear Reader, while making the project, I thought it to be convenient to have a place to store technical definitions to serve as reference. I hope this is helpful and gets you curious!'"
       :image-src="BASE + '/images/reset-pin.png'"
       image-alt="Raspberry Pi"
     />

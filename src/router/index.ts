@@ -58,6 +58,11 @@ const router = createRouter({
       component: () => import('../views/GlossaryView.vue'),
     },
     {
+      path:'/reflection',
+      name: 'reflection',
+      component: () => import('../views/ReflectionView.vue'),
+    },
+    {
       path: '/references',
       name: 'references',
       component: () => import('../views/ReferencesView.vue'),

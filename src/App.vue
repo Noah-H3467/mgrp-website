@@ -72,6 +72,7 @@ function toggle(id: number) {
               </li>
             </ul>
 
+            <RouterLink to="/reflection">Self Reflection</RouterLink>
             <RouterLink to="/references">References</RouterLink>
           </div>
         </nav>
