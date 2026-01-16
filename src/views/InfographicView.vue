@@ -23,6 +23,8 @@ const BASE = import.meta.env.BASE_URL
           :image-src="BASE + '/images/infographic.png'"
         >
         </NewsItem>
+        <iframe width="900" height="600" src="https://www.youtube.com/embed/UCt6d0SCxO4" title="Eben Upton  - The Story of Raspberry Pi (24:07)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="900" height="600" src="https://www.youtube.com/embed/eZ74x6dVYes" title="Raspberry Pi Explained in 100 Seconds" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h3>Early prototypes</h3>
         <img :src= "BASE + '/images/raspberry-pi-prototype-1.png'">
         <img :src= "BASE + '/images/raspberry-pi-prototype-2.png'">
